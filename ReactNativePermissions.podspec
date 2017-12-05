@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.platform               = :ios, '9.0'
   s.ios.deployment_target  = '8.0'
 
+  s.dependency 'React'
+
   s.preserve_paths         = 'LICENSE', 'package.json'
   s.source_files           = '**/*.{h,m}'
   s.exclude_files          = 'example/**/*'
